@@ -1,5 +1,5 @@
 import React from 'react';
-import LifecycleExample from './03/LifecycleExample';
+import LifecycleExample from './LifecycleExample';
 
 class App extends React.Component {
   render() {

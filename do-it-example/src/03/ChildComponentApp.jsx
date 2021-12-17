@@ -4,7 +4,8 @@ import ChildComponent from './03/ChildComponent';
 class App extends React.Component {
     render() {
         return(
-            <ChildComponent boolValue={true}
+            <ChildComponent 
+            boolValue={true}
             numValue={1}
             arrayValue={[1,2,3]}
             objValue={{ name:'제목', age:30}}

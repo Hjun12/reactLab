@@ -1,21 +1,28 @@
 import React from 'react';
-
-//import PropComponent from './03/PropsComponent';
-import ChildComponent from './03/ChildComponent';
+//import './App.css';
+//import MyComponent from './01/RCC';
+//import MyComponent from './01/App';
+//import MyComponent from './03/JSXSample';
+//import MyComponent from './03/PropsParentComponent';
+//import MyComponent from './03/ChildComponentExample';
+//import MyComponent from './03/BooleanPropExample';
+//import MyComponent from './03/DefaultPropsExample';
+//import MyComponent from './03/ChildPropertyApp';
+//import MyComponent from './03/StateExampleApp';
+//import MyComponent from './03/ForceUpdateExampleApp';
+import MyComponent from './03/LifecycleExampleApp';
+//import MyComponent from './03/CounterExample';
+//import MyComponent from './03/ListExample';
+//import MyComponent from './06/HomePageComponent';
 
 
 class App extends React.Component {
   render() {
-      return(
-          <ChildComponent 
-          boolValue={true}
-          numValue={1}
-          arrayValue={[1,2,3]}
-          objValue={{ name:'제목', age:30}}
-          nodeValue={<h1>노드</h1>}
-          funcValue={() => { console.log('메세지'); }}
-          />
-      );
+    return (
+      <div className="body">
+        <MyComponent />
+      </div>
+    );
   }
 }
 
