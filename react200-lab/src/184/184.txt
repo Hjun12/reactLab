@@ -1,6 +1,0 @@
-sudo su -
-cd /home/ubuntu/react200/routes
-vi BatchRout.js
-i
-:wq
-:q
